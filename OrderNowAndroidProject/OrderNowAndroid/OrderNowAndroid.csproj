@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{312E2BC6-BC20-4287-ABF4-E770C97ECAA5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>OrderNowAndroid</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>OrderNowAndroid</AssemblyName>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <JavaMaximumHeapSize>2G</JavaMaximumHeapSize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <JavaMaximumHeapSize>2G</JavaMaximumHeapSize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Xamarin.Android.Support.v7.CardView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.21.0.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.21.0.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Facebook">
+      <HintPath>..\packages\Xamarin.Facebook.3.22.0.0\lib\MonoAndroid40\Xamarin.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.21.0.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.MediaRouter">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.MediaRouter.21.0.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.MediaRouter.dll</HintPath>
+    </Reference>
+    <Reference Include="GooglePlayServicesLib">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.22.0.0.2\lib\MonoAndroid41\GooglePlayServicesLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantItem.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="OrderSection.cs" />
+    <Compile Include="OrderItem.cs" />
+    <Compile Include="MenuSectionFragment.cs" />
+    <Compile Include="MenuSectionsFragment.cs" />
+    <Compile Include="MenuItemsAdaptor.cs" />
+    <Compile Include="ItemsData.cs" />
+    <Compile Include="Dialog_ordernow_confirm.cs" />
+    <Compile Include="SignInFragment.cs" />
+    <Compile Include="SignUpUserFragment.cs" />
+    <Compile Include="SignUpCreditFragment.cs" />
+    <Compile Include="ProfileSectionFragment.cs" />
+    <Compile Include="InfosSectionFragment.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\layout\action_bar.axml" />
+    <AndroidResource Include="Resources\drawable\calamari.png" />
+    <AndroidResource Include="Resources\layout\item_card.axml" />
+    <AndroidResource Include="Resources\layout\item_card_test.axml" />
+    <AndroidResource Include="Resources\layout\item_row.axml" />
+    <AndroidResource Include="Resources\drawable\steak.png" />
+    <AndroidResource Include="Resources\drawable\orderNow.png" />
+    <AndroidResource Include="Resources\drawable\sdsLogo.png" />
+    <AndroidResource Include="Resources\layout\order_card.axml" />
+    <AndroidResource Include="Resources\layout\order_card_test.axml" />
+    <AndroidResource Include="Resources\drawable\selectorActionBar.xml" />
+    <AndroidResource Include="Resources\drawable\orderNowPressed.png" />
+    <AndroidResource Include="Resources\drawable\selectorMenuTab.xml" />
+    <AndroidResource Include="Resources\drawable\selectorOrderTab.xml" />
+    <AndroidResource Include="Resources\values\Colors.xml" />
+    <AndroidResource Include="Resources\values\Themes.xml" />
+    <AndroidResource Include="Resources\layout\menu_sections.axml" />
+    <AndroidResource Include="Resources\drawable\breakfast.png" />
+    <AndroidResource Include="Resources\drawable\dinner.png" />
+    <AndroidResource Include="Resources\drawable\sdsBanner.png" />
+    <AndroidResource Include="Resources\drawable\specialsPromotions.png" />
+    <AndroidResource Include="Resources\layout\dialog_sign_up.axml" />
+    <AndroidResource Include="Resources\drawable\ButtonSignUpStyle.xml" />
+    <AndroidResource Include="Resources\drawable\edit_text_style.xml" />
+    <AndroidResource Include="Resources\drawable\drinksnBeers.png" />
+    <AndroidResource Include="Resources\layout\menu_section_items.axml" />
+    <AndroidResource Include="Resources\layout\order_section.axml" />
+    <AndroidResource Include="Resources\layout\dialog_ordernow_confirm.axml" />
+    <AndroidResource Include="Resources\drawable\selectorConfirmStyle.xml" />
+    <AndroidResource Include="Resources\drawable\selectorCancelStyle.xml" />
+    <AndroidResource Include="Resources\drawable\border_confirm.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\anim\slide_up.xml" />
+    <AndroidResource Include="Resources\anim\slide_down_exit.xml" />
+    <AndroidResource Include="Resources\anim\slide_in.xml" />
+    <AndroidResource Include="Resources\anim\slide_out.xml" />
+    <AndroidResource Include="Resources\layout\sign_in.axml" />
+    <AndroidResource Include="Resources\drawable\ButtonSignInWFacebook.xml" />
+    <AndroidResource Include="Resources\drawable\moreOption.png" />
+    <AndroidResource Include="Resources\drawable\menu.png" />
+    <AndroidResource Include="Resources\drawable\menuSelected.png" />
+    <AndroidResource Include="Resources\drawable\order.png" />
+    <AndroidResource Include="Resources\drawable\orderSelected.png" />
+    <AndroidResource Include="Resources\drawable\events.png" />
+    <AndroidResource Include="Resources\drawable\eventsSelected.png" />
+    <AndroidResource Include="Resources\drawable\info.png" />
+    <AndroidResource Include="Resources\drawable\infoSelected.png" />
+    <AndroidResource Include="Resources\drawable\profile.png" />
+    <AndroidResource Include="Resources\drawable\profileSelected.png" />
+    <AndroidResource Include="Resources\drawable\selectorBtnOrderNow.xml" />
+    <AndroidResource Include="Resources\drawable\selectorTextView.xml" />
+    <AndroidResource Include="Resources\drawable\selected_state.xml" />
+    <AndroidResource Include="Resources\drawable\profilePictureEdit.png" />
+    <AndroidResource Include="Resources\layout\sign_up_user.axml" />
+    <AndroidResource Include="Resources\layout\sign_up_credit.axml" />
+    <AndroidResource Include="Resources\layout\profile_section.axml" />
+    <AndroidResource Include="Resources\drawable\hockeyBackground.png" />
+    <AndroidResource Include="Resources\drawable\btnProfilePictureStyle.xml" />
+    <AndroidResource Include="Resources\drawable\selectorProfileTab.xml" />
+    <AndroidResource Include="Resources\drawable\selectorEventsTab.xml" />
+    <AndroidResource Include="Resources\drawable\selectorInfosTab.xml" />
+    <AndroidResource Include="Resources\drawable\centDrives.png" />
+    <AndroidResource Include="Resources\drawable\creditCard.png" />
+    <AndroidResource Include="Resources\drawable\label.png" />
+    <AndroidResource Include="Resources\drawable\letter.png" />
+    <AndroidResource Include="Resources\drawable\phone.png" />
+    <AndroidResource Include="Resources\drawable\Warning.png" />
+    <AndroidResource Include="Resources\drawable\btnProfileMenuStyle.xml" />
+    <AndroidResource Include="Resources\drawable\ceasarSalad.png" />
+    <AndroidResource Include="Resources\drawable\chesseBurger.png" />
+    <AndroidResource Include="Resources\drawable\chickenWings.png" />
+    <AndroidResource Include="Resources\drawable\fries.png" />
+    <AndroidResource Include="Resources\drawable\pepperoniPizza.png" />
+    <AndroidResource Include="Resources\drawable\sdsNachos.png" />
+    <AndroidResource Include="Resources\drawable\spaghettiBolognese.png" />
+    <AndroidResource Include="Resources\drawable\alexanderKeithPint.png" />
+    <AndroidResource Include="Resources\drawable\budweiser2Liters.png" />
+    <AndroidResource Include="Resources\drawable\malibuRed.png" />
+    <AndroidResource Include="Resources\drawable\mojito.png" />
+    <AndroidResource Include="Resources\drawable\RickardsRed4L.png" />
+    <AndroidResource Include="Resources\drawable\slapshot500ml.png" />
+    <AndroidResource Include="Resources\drawable\splashScreen.png" />
+    <AndroidResource Include="Resources\drawable\roundCorners.xml" />
+    <AndroidResource Include="Resources\drawable\sdsBackground.png" />
+    <AndroidResource Include="Resources\drawable\sdsSignInBackground.png" />
+    <AndroidResource Include="Resources\layout\infos_section.axml" />
+    <AndroidResource Include="Resources\drawable\bottomBorder.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\anim\" />
+    <Folder Include="Assets\fonts\" />
+    <Folder Include="Resources\selectors\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\fonts\HelveticaNeue.dfont" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="googleplayservices">
+      <Version>22.0.0.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+</Project>

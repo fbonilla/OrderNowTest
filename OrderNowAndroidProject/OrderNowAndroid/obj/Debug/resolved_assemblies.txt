@@ -1,0 +1,8 @@
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\bin\Debug\OrderNowAndroid.dll
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\packages\Xamarin.GooglePlayServices.22.0.0.2\lib\MonoAndroid41\GooglePlayServicesLib.dll
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\packages\Xamarin.Android.Support.v7.AppCompat.21.0.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\packages\Xamarin.Android.Support.v7.CardView.21.0.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\packages\Xamarin.Android.Support.v7.MediaRouter.21.0.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\packages\Xamarin.Android.Support.v7.RecyclerView.21.0.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\packages\Xamarin.Facebook.3.22.0.0\lib\MonoAndroid40\Xamarin.Facebook.dll

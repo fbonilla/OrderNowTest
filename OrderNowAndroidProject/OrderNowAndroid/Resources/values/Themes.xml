@@ -1,0 +1,26 @@
+﻿<resources>    
+
+<style name="SplashTheme"
+    parent="@android:style/Theme.Holo.Light.DarkActionBar">
+  	<item name="android:actionBarStyle">@style/MyActionBar</item>
+	 <item name="android:windowBackground">@drawable/splashscreen</item>
+	<item name="android:windowNoTitle">true</item>
+
+</style>
+
+<style name="CustomActionBarTheme"
+    parent="@android:style/Theme.Holo">
+  	<item name="android:actionBarStyle">@style/MyActionBar</item>
+	 <item name="android:windowBackground">@drawable/splashscreen</item>
+
+</style>
+
+<style name="MyActionBar"
+       parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+  <item name="android:height">45dp</item>
+<!-- Make loading view empty for now -->
+  <item name="android:displayOptions"></item>
+  <item name="android:background">#0B395B</item>
+</style>
+
+</resources>
