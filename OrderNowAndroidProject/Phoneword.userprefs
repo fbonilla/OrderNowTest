@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="OrderNowAndroid\OrderNowAndroid.csproj">
+﻿<Properties StartupItem="OrderNowAndroid/OrderNowAndroid.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.a7242af1" />
   <MonoDevelop.Ide.Workbench ActiveDocument="OrderNowAndroid\MainActivity.cs">
     <Files>
