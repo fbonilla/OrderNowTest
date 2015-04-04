@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">Order Now</string>
+	<string name="get_started">To get started, log in using Facebook</string>
+	<string name="app_id">795096107252036</string>
+	<string name="sign_up">Need an account? Sign Up</string>
+	<string name="sign_up_pressed"><u>Need an account? Sign Up</u></string>
+
+	<string name="card_type_prompt">Type</string>
+	<string-array name="card_types">
+		<item><font color="#ffffffff">Visa</font></item>
+		<item><font color="#ffffffff">Master Card</font></item>
+		<!--<item>American Express</item>-->
+	</string-array>
+		
+</resources>

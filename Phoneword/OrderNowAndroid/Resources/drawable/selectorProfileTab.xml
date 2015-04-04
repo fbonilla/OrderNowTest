@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!--Pressed-->
+    <item android:drawable="@drawable/profileSelected" android:state_focused="true"/>
+
+    <!--Default (must be at the end of xml file)-->
+    <item android:drawable="@drawable/profile" />
+
+</selector>

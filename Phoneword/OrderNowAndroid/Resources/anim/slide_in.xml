@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:valueFrom="1280"
+    android:valueTo="0"
+    android:propertyName="tranlationX"
+    android:duration="@android:integer/config_mediumAnimTime" />

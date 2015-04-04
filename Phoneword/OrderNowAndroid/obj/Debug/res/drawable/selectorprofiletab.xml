@@ -1,0 +1,1 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android"><!--Pressed--><item android:drawable="@drawable/profileselected" android:state_focused="true" /><!--Default (must be at the end of xml file)--><item android:drawable="@drawable/profile" /></selector>

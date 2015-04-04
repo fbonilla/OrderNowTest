@@ -1,0 +1,5 @@
+C:\Users\Tom\Documents\Projects\Phoneword\OrderNowAndroid\bin\Debug\OrderNowAndroid.dll
+C:\Users\Tom\Documents\Projects\Phoneword\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
+C:\Users\Tom\Documents\Projects\Phoneword\packages\Xamarin.Android.Support.v7.CardView.21.0.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Tom\Documents\Projects\Phoneword\packages\Xamarin.Android.Support.v7.RecyclerView.21.0.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Tom\Documents\Projects\Phoneword\packages\Xamarin.Facebook.3.22.0.0\lib\MonoAndroid40\Xamarin.Facebook.dll
