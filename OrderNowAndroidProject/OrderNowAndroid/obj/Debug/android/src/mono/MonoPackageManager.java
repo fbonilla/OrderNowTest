@@ -68,13 +68,13 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"OrderNowAndroid.dll",
-		"Xamarin.Android.Support.v7.CardView.dll",
+		"GooglePlayServicesLib.dll",
 		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.Android.Support.v7.AppCompat.dll",
+		"Xamarin.Android.Support.v7.CardView.dll",
+		"Xamarin.Android.Support.v7.MediaRouter.dll",
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Facebook.dll",
-		"Xamarin.Android.Support.v7.AppCompat.dll",
-		"Xamarin.Android.Support.v7.MediaRouter.dll",
-		"GooglePlayServicesLib.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

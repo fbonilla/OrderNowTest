@@ -76,6 +76,7 @@
             android:layout_marginRight="5dp" />
         <Button
             android:text="514-555-9110"
+            android:gravity="left|center_vertical"
             android:textColor="#FFF"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -102,6 +103,7 @@
             android:layout_marginRight="5dp" />
         <Button
             android:text="ridethemagicstick@gmail.com"
+            android:gravity="left|center_vertical"
             android:textColor="#FFF"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -128,6 +130,7 @@
             android:layout_marginRight="5dp" />
         <Button
             android:text="Purchases"
+            android:gravity="left|center_vertical"
             android:textColor="#FFF"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -154,6 +157,7 @@
             android:layout_marginRight="5dp" />
         <Button
             android:text="Credit Card"
+            android:gravity="left|center_vertical"
             android:textColor="#FFF"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -180,6 +184,7 @@
             android:layout_marginRight="5dp" />
         <Button
             android:text="Allergies"
+            android:gravity="left|center_vertical"
             android:textColor="#FFF"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

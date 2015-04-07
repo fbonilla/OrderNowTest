@@ -18,7 +18,7 @@ namespace OrderNowAndroid
 			mOrderItems = new List<OrderItem>();
 			//mRecyclerView = recyclerView;
 		}
-		//test commit
+
 		public class MyView : RecyclerView.ViewHolder
 		{
 			public View mMainView { get; set; }

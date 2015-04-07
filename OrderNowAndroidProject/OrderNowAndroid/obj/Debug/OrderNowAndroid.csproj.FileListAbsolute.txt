@@ -42,7 +42,6 @@ C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res
 C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\drawable\sdsbanner.png
 C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\drawable\specialspromotions.png
 C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\layout\dialog_sign_up.xml
-C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\drawable\buttonsignupstyle.xml
 C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\drawable\edit_text_style.xml
 C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\drawable\drinksnbeers.png
 C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\layout\menu_section_items.xml
@@ -107,5 +106,9 @@ C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res
 C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\drawable\sdssigninbackground.png
 C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\layout\infos_section.xml
 C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\drawable\bottomborder.xml
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\drawable\buttonsigninstyle.xml
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\drawable\lessquantity.png
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\drawable\morequantity.png
 C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\R.cs.flag
 C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\uploadflags.txt
+C:\Users\Tom\Documents\Projects\ordernowAndroidGit\OrderNowAndroid\obj\Debug\res\drawable\lessoption.png

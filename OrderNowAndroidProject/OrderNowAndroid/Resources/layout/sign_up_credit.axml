@@ -111,7 +111,7 @@
         </LinearLayout>
         <EditText
             android:id="@+id/txtCardHolder"
-            android:inputType="textPersonName"
+            android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@drawable/edit_text_style"
@@ -119,7 +119,8 @@
             android:layout_marginRight="50dp"
             android:layout_marginBottom="15dp"
             android:hint="Card Holder Name"
-            android:paddingLeft="10dp" />
+            android:paddingLeft="10dp"
+            android:textColor="#000" />
         <Button
             android:text="Sign Up"
             android:layout_width="match_parent"
@@ -129,9 +130,9 @@
             android:textColor="#fff"
             android:textStyle="bold"
             android:paddingBottom="5dp"
-            android:height="60dp"
+            android:height="40dp"
             android:paddingTop="2dp"
-            android:background="@drawable/ButtonSignUpStyle"
+            android:background="@drawable/ButtonSignInStyle"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="50dp"

@@ -15,6 +15,6 @@
 	</string-array>
 
 	<string name="gay_station_infos"><![CDATA[862 St-Catherine East\nMontreal, Quebec H2L 2E3\nMon-Fri\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t11:00AM – 1:00AM\nSat-Sun\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t7:30AM – 1:00AM]]></string>
-	<string name="jew_station_infos"><![CDATA[862 St-Catherine West\nMontreal, Quebec H3H 1M6\nMon-Wed\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t7:00AM – 1:00AM\nTue-Sat\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t7:30AM – 2:00AM\nSunday\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t7:00AM – 1:00AM]]></string>
+	<string name="jew_station_infos"><![CDATA[862 St-Catherine West\nMontreal, Quebec H3H 1M6\nMon-Wed\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t7:00AM – 1:00AM\nTue-Sat\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t7:30AM – 2:00AM\nSunday\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t7:00AM – 1:00AM]]></string>
 		
 </resources>

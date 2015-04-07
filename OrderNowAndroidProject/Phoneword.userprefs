@@ -1,10 +1,9 @@
-﻿<Properties StartupItem="OrderNowAndroid/OrderNowAndroid.csproj" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.a7242af1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OrderNowAndroid\MainActivity.cs">
+﻿<Properties StartupItem="OrderNowAndroid\OrderNowAndroid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="OrderNowAndroid\MainActivity.cs" Line="340" Column="36" />
-      <File FileName="OrderNowAndroid\ProfileSectionFragment.cs" Line="19" Column="3" />
-      <File FileName="OrderNowAndroid\InfosSectionFragment.cs" Line="1" Column="1" />
+      <File FileName="OrderNowAndroid\Resources\values\Strings.xml" Line="13" Column="58" />
+      <File FileName="OrderNowAndroid\Resources\values\Colors.xml" Line="3" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
